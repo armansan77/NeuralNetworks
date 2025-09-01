@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-awesome-package"
+version = "0.1.0"
+description = "A short description of my package."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Arman Santana", email = "armansan77@gmail.com" },
+]
+dependencies = [
+    "requests>=2.28.1",
+    "numpy",
+    "pandas",
+    "polars"
+]
+
+
+
